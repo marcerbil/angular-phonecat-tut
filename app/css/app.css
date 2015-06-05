@@ -1,0 +1,50 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 5.5em;
+    font: 1.3em regular;
+    font-family: 'Lato', sans-serif;
+    color: #bbb;
+}
+
+h3 {
+    font: 1.5em regular;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+::selection {
+    display: none;
+}
+
+.phones {
+    list-style: none;
+}
+
+.thumb {
+    float: left;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    height: 8rem;
+    width: 8rem;
+}
+
+.phones li {
+    clear: both;
+    height: 100%;
+    padding: 1em;
+}
+
+.nav-styling {
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+/* extension of BS class */
+.well {
+    background-color: whitesmoke;
+}
